@@ -9,7 +9,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="73334526-b1eb-4dca-b6f6-3b44fdcf5a7b" name="Changes" comment="Commit de projeto com resolução inicial" />
+    <list default="true" id="73334526-b1eb-4dca-b6f6-3b44fdcf5a7b" name="Changes" comment="Commit de projeto com resolução inicial">
+      <change afterPath="$PROJECT_DIR$/../APIMetereologia/src/main/java/acao/MostraPrevisaoJSON.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../APIMetereologia/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../APIMetereologia/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../APIMetereologia/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../APIMetereologia/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../APIMetereologia/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../APIMetereologia/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../APIMetereologia/src/main/java/acao/ListaPrevisao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../APIMetereologia/src/main/java/acao/ListaPrevisao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../APIMetereologia/src/main/java/modelo/Cidade.java" beforeDir="false" afterPath="$PROJECT_DIR$/../APIMetereologia/src/main/java/modelo/Cidade.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../APIMetereologia/src/main/java/modelo/Cidades.java" beforeDir="false" afterPath="$PROJECT_DIR$/../APIMetereologia/src/main/java/modelo/Cidades.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../APIMetereologia/src/main/java/modelo/Previsao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../APIMetereologia/src/main/java/modelo/Previsao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../APIMetereologia/src/main/java/modelo/PrevisaoCidade.java" beforeDir="false" afterPath="$PROJECT_DIR$/../APIMetereologia/src/main/java/modelo/PrevisaoCidade.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../APIMetereologia/src/main/webapp/WEB-INF/view/lista.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../APIMetereologia/src/main/webapp/WEB-INF/view/lista.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../APIMetereologia/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../APIMetereologia/src/main/webapp/index.jsp" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,7 +36,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="JpbToolWindowState">
     <option name="myId2FirstActivated">
@@ -54,29 +66,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/Lucca/Documents/ESTUDOS/Compass.UOL/Sprint3/APITempo",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Lucca/Documents/ESTUDOS/Compass.UOL/Sprint3/Loja&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="loja.modelo.Compras.DAO" />
@@ -198,6 +210,8 @@
       <updated>1656779689609</updated>
       <workItem from="1656779690825" duration="33559000" />
       <workItem from="1656860120046" duration="18081000" />
+      <workItem from="1656903140904" duration="27000" />
+      <workItem from="1656975128572" duration="940000" />
     </task>
     <task id="LOCAL-00001" summary="Commit de projeto com resolução inicial">
       <created>1656901434742</created>

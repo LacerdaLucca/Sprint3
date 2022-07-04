@@ -19,7 +19,7 @@
     <c:forEach items="${Previsoes}" var="previsao">
 
     <li>
-        "<fmt:formatDate value="${previsao.dia}" pattern="dd/MM/yyyy"/>" - ${previsao.max} - ${previsao.minima}
+        "<fmt:formatDate value="${previsao.dia}" pattern="dd/MM/yyyy"/>" - ${previsao.maxima} - ${previsao.minima}
     </li>
     </c:forEach>
 </body>

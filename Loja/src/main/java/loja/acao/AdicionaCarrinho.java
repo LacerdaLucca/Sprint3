@@ -12,7 +12,7 @@ public class AdicionaCarrinho implements Acao{
 
     @Override
     public String executa(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        int id = Integer.valueOf(request.getParameter("id"));
+        int id = Integer.parseInt(request.getParameter("id"));
         NovaCompra.getCompra().setProdutoCarrinho(id);
         System.out.println(NovaCompra.getCompra().getCarrinho());
         return "redirect:entrada?acao=NovaCompraForm";
