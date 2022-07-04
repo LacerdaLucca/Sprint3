@@ -9,9 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d4c4a472-2136-49fc-94a9-4839199b40bf" name="Changes" comment="Commit inicial">
-      <change beforePath="$PROJECT_DIR$/../Loja" beforeDir="false" afterPath="$PROJECT_DIR$/../Loja" afterDir="false" />
-    </list>
+    <list default="true" id="d4c4a472-2136-49fc-94a9-4839199b40bf" name="Changes" comment="Commit inicial" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -53,7 +51,7 @@
     "WebServerToolWindowFactoryState": "false",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit3",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit3": "junit.framework.TestCase",
-    "last_opened_file_path": "C:/Users/Lucca/Documents/ESTUDOS/Compass.UOL/Sprint3/APITempo",
+    "last_opened_file_path": "C:/Users/Lucca/Documents/ESTUDOS/Compass.UOL/Sprint3/APIMetereologia",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -102,9 +100,9 @@
       <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/APITempo_war/entrada?acao=BuscaPrevisaoForm" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
-        <artifact name="APITempo:war">
+        <artifact name="APIMetereologia:war">
           <settings>
-            <option name="CONTEXT_PATH" value="/APITempo_war" />
+            <option name="CONTEXT_PATH" value="/APIMetereologia_war" />
           </settings>
         </artifact>
       </deployment>
@@ -183,6 +181,7 @@
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
           <artifact name="APITempo:war" />
+          <artifact name="APIMetereologia:war" />
         </option>
       </method>
     </configuration>
@@ -208,6 +207,7 @@
       <updated>1656869919297</updated>
       <workItem from="1656869920859" duration="14686000" />
       <workItem from="1656901667528" duration="1083000" />
+      <workItem from="1656902962046" duration="59000" />
     </task>
     <task id="LOCAL-00001" summary="Commit inicial">
       <created>1656901679411</created>
